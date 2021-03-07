@@ -1,0 +1,52 @@
+Header {
+  border: solid;
+  padding: 5%;
+}
+nav {
+  border: solid;
+  margin: 10px 0px;
+  padding: 5%;
+}
+section {
+  border: solid;
+  padding: 30%;
+  display: flex;
+}
+article {
+  border: solid;
+  margin-top: 10px;
+  padding: 30%;
+}
+aside {
+  border: solid;
+  padding: 10% 15%;
+  margin-left: 10px;
+}
+footer {
+  border: solid;
+  margin: 10px 0px;
+  padding: 2% ;
+}
+details {
+  border: solid;
+  margin: 10px 0px;
+  padding: 2% ;
+}
+summary {
+  border: solid;
+  margin: 10px 0px;
+  padding: 2% ;
+}
+
+#content {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+}
+ #content-container {
+   width: 100%;
+   display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+ }
