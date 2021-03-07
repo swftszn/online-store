@@ -1,0 +1,15 @@
+@media all and (max-width: 450px) {
+  #content {
+    width: 100%;
+  }
+  section {
+    padding: 10%;
+  }
+  article {
+    padding: 10%;
+  }
+  aside {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+  }
