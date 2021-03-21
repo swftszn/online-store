@@ -1,52 +1,73 @@
-Header {
-  border: solid;
-  padding: 5%;
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.header {
+  text-align: center;
+  color: black;
+  position: relative;
 }
-nav {
-  border: solid;
-  margin: 10px 0px;
-  padding: 5%;
+.header h1 {
+  font-size:4vw;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: Arial;
 }
-section {
-  border: solid;
-  padding: 30%;
-  display: flex;
+img { 
+  width: 100%;
+  height: auto;
 }
-article {
-  border: solid;
-  margin-top: 10px;
-  padding: 30%;
+.header p {
+  font-family: Courier New, monospace;
+  font-size: 10px;
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
 }
-aside {
-  border: solid;
-  padding: 10% 15%;
-  margin-left: 10px;
+.navbar {
+  overflow: hidden;
+  background-color: #2098D1;
+  color: white;
+  font-family: Quicksand;
+  position: relative;
+  bottom: 10px;
 }
-footer {
-  border: solid;
-  margin: 10px 0px;
-  padding: 2% ;
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+ background-color: #2098D1;
+  color: white;
+  
 }
-details {
-  border: solid;
-  margin: 10px 0px;
-  padding: 2% ;
-}
-summary {
-  border: solid;
-  margin: 10px 0px;
-  padding: 2% ;
+.navbar a:hover {
+  background-color: white;
+  color: #5F9EA0;
 }
 
-#content {
-  width: 50%;
-  display: flex;
-  flex-flow: column wrap;
-  flex-grow: 1;
+.content-container {
+  background-color: #F0FFFF;
+  height: 400px;
+  position: relative;
+  bottom: 30px;
 }
- #content-container {
-   width: 100%;
-   display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
- }
+
+.content-container2 {
+  background-color: #708090;
+  height: 600px;
+  position: relative;
+  bottom: 30px;
+}
+.section h2 {
+  text-align: center;
+  position:relative;
+  top: 70px;
+}
+.section p {
+  text-align: center;
+  position:relative;
+  top: 70px;
+}
